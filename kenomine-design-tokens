@@ -1,0 +1,368 @@
+Kenomine.io Design Tokens v0.1
+
+Purpose
+
+These tokens define the visual styling foundation for kenomine.io.
+
+The goal is to keep the portfolio:
+
+* clear
+* calm
+* editorial
+* readable
+* confident
+* product-design focused
+
+⸻
+
+Color Tokens
+
+Philosophy
+
+Color should support clarity, not decoration.
+
+The portfolio should feel like a clean editorial design system where the work, case studies, and diagrams remain the focus.
+
+⸻
+
+Neutral Colors
+
+--color-bg: #FAFAF8;
+--color-surface: #FFFFFF;
+--color-surface-muted: #F3F2EF;
+--color-text-primary: #171717;
+--color-text-secondary: #5F5F5F;
+--color-text-muted: #8A8A8A;
+--color-border: #E2E0DC;
+--color-border-strong: #C8C6C1;
+
+⚠ Needs verification against current site CSS.
+
+⸻
+
+Accent Colors
+
+--color-accent: #2F5D50;
+--color-accent-hover: #24483E;
+--color-accent-soft: #E6F0EC;
+
+Use accent sparingly for:
+
+* links
+* active navigation
+* small highlights
+* selected states
+
+Avoid using accent color for large decorative areas.
+
+⚠ Needs definition: confirm whether green, blue, or warm neutral should be the official kenomine accent.
+
+⸻
+
+Semantic Colors
+
+--color-success: #2E7D32;
+--color-warning: #B26A00;
+--color-error: #C62828;
+--color-info: #2457A6;
+
+Use only when showing product states, annotations, or audit notes.
+
+⸻
+
+Typography Tokens
+
+Philosophy
+
+Typography should feel editorial, calm, and highly readable.
+
+Hierarchy should come from size, weight, spacing, and layout rather than heavy color usage.
+
+⸻
+
+Font Families
+
+--font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+--font-serif: Georgia, "Times New Roman", serif;
+--font-mono: "SF Mono", Consolas, monospace;
+
+Recommended:
+
+* Sans-serif for interface and case study body
+* Serif optional for editorial pull quotes
+* Mono only for code, tokens, or technical references
+
+⚠ Needs verification: confirm actual site font.
+
+⸻
+
+Type Scale
+
+--font-size-xs: 0.75rem;   /* 12px */
+--font-size-sm: 0.875rem;  /* 14px */
+--font-size-md: 1rem;      /* 16px */
+--font-size-lg: 1.125rem;  /* 18px */
+--font-size-xl: 1.5rem;    /* 24px */
+--font-size-2xl: 2rem;     /* 32px */
+--font-size-3xl: 3rem;     /* 48px */
+--font-size-4xl: 4rem;     /* 64px */
+
+⸻
+
+Line Height
+
+--line-height-tight: 1.1;
+--line-height-heading: 1.2;
+--line-height-body: 1.6;
+--line-height-caption: 1.4;
+
+Rules:
+
+* Use tighter line height for large headlines.
+* Use generous line height for case study body copy.
+* Avoid dense paragraphs.
+
+⸻
+
+Font Weight
+
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+
+Recommendation:
+
+Use 600 for most headings instead of overly bold weights.
+
+⸻
+
+Spacing Tokens
+
+Philosophy
+
+Spacing should create calm reading rhythm.
+
+The site should feel spacious, not empty.
+
+⸻
+
+--space-0: 0;
+--space-1: 0.25rem;  /* 4px */
+--space-2: 0.5rem;   /* 8px */
+--space-3: 0.75rem;  /* 12px */
+--space-4: 1rem;     /* 16px */
+--space-5: 1.5rem;   /* 24px */
+--space-6: 2rem;     /* 32px */
+--space-7: 3rem;     /* 48px */
+--space-8: 4rem;     /* 64px */
+--space-9: 6rem;     /* 96px */
+--space-10: 8rem;    /* 128px */
+
+Usage:
+
+* 4–8px: micro spacing
+* 12–16px: inline grouping
+* 24–32px: component spacing
+* 48–64px: section spacing
+* 96–128px: major page breaks
+
+⸻
+
+Border Radius Tokens
+
+Philosophy
+
+Corners should feel modern but not overly playful.
+
+--radius-none: 0;
+--radius-sm: 4px;
+--radius-md: 8px;
+--radius-lg: 12px;
+--radius-xl: 20px;
+--radius-pill: 999px;
+
+Usage:
+
+* Cards: 12px
+* Buttons: 999px or 8px
+* Image containers: 12–20px
+* Tags/chips: 999px
+
+⚠ Needs definition: decide whether kenomine.io should use sharper editorial corners or softer product-style corners.
+
+⸻
+
+Shadow Tokens
+
+Philosophy
+
+Use shadows minimally.
+
+Prefer borders and spacing over heavy elevation.
+
+--shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+--shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+--shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.12);
+
+Rule:
+
+Use shadows only for:
+
+* cards
+* overlays
+* image containers
+* interactive hover states
+
+Avoid dramatic shadows.
+
+⸻
+
+Layout Tokens
+
+--container-sm: 640px;
+--container-md: 880px;
+--container-lg: 1120px;
+--container-xl: 1280px;
+--content-readable: 720px;
+
+Rules:
+
+* Long-form case study text should stay around 640–760px wide.
+* Visual artifacts can expand wider.
+* Metrics and diagrams can use full-width containers.
+
+⸻
+
+Breakpoints
+
+--breakpoint-sm: 480px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 1024px;
+--breakpoint-xl: 1280px;
+
+⚠ Needs verification against current implementation.
+
+⸻
+
+Component Tokens
+
+Buttons
+
+--button-height-sm: 36px;
+--button-height-md: 44px;
+--button-height-lg: 52px;
+--button-padding-x-sm: 16px;
+--button-padding-x-md: 20px;
+--button-padding-x-lg: 24px;
+
+Button style:
+
+* Primary: dark text or accent background
+* Secondary: border only
+* Tertiary: text link
+
+⸻
+
+Cards
+
+--card-padding-sm: 16px;
+--card-padding-md: 24px;
+--card-padding-lg: 32px;
+--card-radius: var(--radius-lg);
+--card-border: 1px solid var(--color-border);
+
+Use cards for:
+
+* metrics
+* project summaries
+* case insights
+* process steps
+
+⸻
+
+Tags / Pills
+
+--tag-padding-y: 6px;
+--tag-padding-x: 12px;
+--tag-radius: var(--radius-pill);
+--tag-font-size: var(--font-size-sm);
+
+Use tags for:
+
+* role
+* platform
+* industry
+* methods
+* tools
+
+⸻
+
+Motion Tokens
+
+Philosophy
+
+Motion should guide, not perform.
+
+--duration-fast: 120ms;
+--duration-base: 200ms;
+--duration-slow: 320ms;
+--ease-standard: cubic-bezier(0.2, 0, 0, 1);
+--ease-enter: cubic-bezier(0, 0, 0.2, 1);
+--ease-exit: cubic-bezier(0.4, 0, 1, 1);
+
+Use motion for:
+
+* hover feedback
+* page transitions
+* image reveals
+* navigation state changes
+
+Avoid motion that delays reading.
+
+⸻
+
+Z-Index Tokens
+
+--z-base: 0;
+--z-sticky: 100;
+--z-nav: 200;
+--z-modal: 500;
+--z-toast: 700;
+
+⸻
+
+Accessibility Rules
+
+Minimum standards:
+
+* Body text should be at least 16px.
+* Links should not rely on color alone.
+* Focus states must be visible.
+* Interactive elements should be at least 44px tall.
+* Text contrast should meet WCAG AA.
+
+⚠ Add an accessibility audit checklist later.
+
+⸻
+
+Token Maturity
+
+Current status:
+
+v0.1 proposed system
+
+Needs verification:
+
+* actual site colors
+* actual font family
+* exact spacing scale
+* current border radius usage
+* responsive breakpoints
+* hover/focus behavior
+
+Recommended next step:
+
+Audit the current CSS and replace proposed values with actual implementation values.
+
+This gives you a strong starter file without pretending the values are final.
