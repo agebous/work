@@ -1,0 +1,215 @@
+Design Principles
+
+Why These Principles Exist
+
+Over the years, I’ve worked across financial services, payments, investing, travel, and platform products. While the industries and products have changed, the underlying challenges have remained remarkably consistent:
+
+People are often asked to make important decisions with incomplete understanding, limited confidence, and varying levels of experience.
+
+These principles guide how I approach design problems and make decisions.
+
+⸻
+
+1. Clarity Before Cleverness
+
+A solution should be understood before it is admired.
+
+I prioritize clear communication, understandable workflows, and predictable interactions over novelty.
+
+Customers rarely reward clever design. They reward experiences that help them accomplish their goals with confidence.
+
+Questions I Ask
+
+* Is this easy to understand?
+* Does the design reduce uncertainty?
+* Are we introducing unnecessary complexity?
+
+⸻
+
+2. Confidence Before Conversion
+
+Short-term conversion should never come at the expense of customer confidence.
+
+When customers understand what is happening, why it matters, and what happens next, better business outcomes often follow naturally.
+
+This principle has shaped much of my work in investing, payments, and money movement experiences.
+
+Questions I Ask
+
+* Does the customer feel informed?
+* Are we creating confidence or pressure?
+* Would I feel comfortable making this decision myself?
+
+⸻
+
+3. Every Workflow Is a Conversation
+
+Interfaces are conversations between people and systems.
+
+Good conversations provide context, answer questions, anticipate concerns, and respond appropriately to user intent.
+
+The best experiences feel less like forms and more like guided conversations.
+
+Questions I Ask
+
+* What is the customer trying to understand right now?
+* What question are they likely asking themselves?
+* Does the interface answer that question at the right moment?
+
+⸻
+
+4. Show What Matters, When It Matters
+
+Not all information deserves equal attention.
+
+The challenge is often not adding information, but deciding when information becomes relevant.
+
+I use progressive disclosure to reveal complexity at the appropriate moment.
+
+Questions I Ask
+
+* What is most important right now?
+* What can wait until later?
+* What information reduces uncertainty at this stage?
+
+⸻
+
+5. Choice Creates Flexibility. Choice Also Creates Friction.
+
+More options can empower users, but they can also increase hesitation and cognitive burden.
+
+I aim to provide meaningful choice without overwhelming people.
+
+This often means establishing sensible defaults while preserving flexibility.
+
+Questions I Ask
+
+* Does this choice genuinely help users?
+* What happens if we reduce the number of decisions?
+* Is there a safe default available?
+
+⸻
+
+6. Design for Confidence and Competence
+
+Helping users complete a task is only part of the job.
+
+Great experiences help people understand what they are doing and become more capable over time.
+
+My work often focuses on supporting customers who are new to a domain, whether that’s investing, lending, or financial management.
+
+Questions I Ask
+
+* Does this increase understanding?
+* Does this help people make better decisions?
+* Are we teaching or merely directing?
+
+⸻
+
+7. Meet People Where They Are Today
+
+People arrive with different levels of knowledge, motivation, and experience.
+
+Design should accommodate current reality rather than assume ideal behavior.
+
+Especially in regulated and complex industries, empathy often matters more than expertise.
+
+Questions I Ask
+
+* What does a first-time user know?
+* What assumptions are we making?
+* Are we designing for reality or aspiration?
+
+⸻
+
+8. Prepare People for Tomorrow
+
+While design should support current needs, it should also help users grow.
+
+The best experiences evolve alongside the customer.
+
+This principle influenced much of my work in youth investing and financial education, where today’s novice may become tomorrow’s expert.
+
+Questions I Ask
+
+* What is the next stage of the user’s journey?
+* How can we support progression?
+* Are we creating dependency or empowerment?
+
+⸻
+
+9. Reduce Cognitive Burden
+
+Every interaction requires mental effort.
+
+My role as a designer is often to reduce unnecessary thinking while preserving informed decision-making.
+
+Simplification is not about removing information. It is about organizing information effectively.
+
+Questions I Ask
+
+* What is creating mental effort?
+* Can this be simplified?
+* Are we asking users to remember something unnecessarily?
+
+⸻
+
+10. Design the System, Not Just the Screen
+
+Individual screens rarely exist in isolation.
+
+I consider how experiences connect across touchpoints, channels, teams, and operational processes.
+
+A polished screen inside a broken system is still a broken experience.
+
+Questions I Ask
+
+* What happens before this interaction?
+* What happens after?
+* What dependencies influence success?
+
+⸻
+
+11. Evidence Over Opinion
+
+Strong opinions are useful. Evidence is better.
+
+I value customer research, usability testing, behavioral data, business goals, and technical constraints when making design decisions.
+
+Design is most effective when it balances customer needs with business realities.
+
+Questions I Ask
+
+* What evidence supports this decision?
+* What assumptions are we making?
+* How can we validate this?
+
+⸻
+
+12. Simplicity Is an Outcome
+
+Simplicity is not the starting point.
+
+It is the result of deeply understanding the problem, identifying what matters, and removing what does not.
+
+Simple experiences often emerge from complex thinking.
+
+Questions I Ask
+
+* Have we fully understood the problem?
+* What can be removed?
+* What is essential?
+
+⸻
+
+Design Philosophy
+
+My goal is not to create beautiful screens.
+
+My goal is to help people understand, decide, and act with greater confidence.
+
+When customers feel informed, capable, and in control, both user outcomes and business outcomes improve.
+
+That is the standard I use to evaluate successful design.
+
+This document is unusually aligned with your actual body of work. If someone read only this file and then reviewed your Fidelity Youth, Discover BT, Synchrony, Citi Invest, and Zettle migration case studies, they would see the same themes repeated over and over: confidence, competence, clarity, progressive disclosure, systems thinking, and customer empowerment. That’s a strong signal that these are genuine principles rather than post-rationalized values.
